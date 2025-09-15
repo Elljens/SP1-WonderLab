@@ -1,0 +1,122 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.top-header {
+    background-color: black;
+    padding: 30px;
+}
+
+.header-logo {
+    height: 80px;
+    width: auto;
+}
+
+.header-line {
+    background-color: #34D786;
+    height: 5px;
+}
+
+.nav-header {
+    background-color: black;
+    display: flex; 
+    align-items: center;
+    justify-content: right;
+    padding: 0px 30px;
+}
+
+nav a {
+    display:inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 15px 0px 15px 20px;
+}
+
+.main_image {
+    background-image: url(../Environment/Env_lansc4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 80vh;
+    position: relative;
+}
+
+h1 {
+ text-align: center;
+ font-size: 2rem;
+ font-weight: 800;
+}
+
+.main-content {
+    display: flexbox;
+    padding: 30px 30px 90px 30px;
+}
+
+.main-text {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex: 1;
+    padding-bottom: 30px;
+}
+
+.exhibitions {
+    background-color: #3561DE;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    min-width: 500px;
+    max-width: 500px;
+    border-radius: 15px;
+}
+
+.welcome-img {
+    min-width: 500px;
+    max-width: 500px;
+    display: flex;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.cta-link {
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 600;
+    font-size: larger;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    align-items: center;
+    text-align: center;
+    display: flexbox; 
+    padding: 20px;
+}
+
+.footer_logo {
+    height: 70px;
+    Width: auto;
+}
+
+.fa-brands {
+    padding: 10px;
+    color: white;
+}
+
+@media (min-width:800px) {
+
+    .welcome-img {
+        max-width: 700px;
+    }
+
+    .exhibitions {
+        max-width: 700px;
+    }
+
+
+
+}
