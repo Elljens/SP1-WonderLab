@@ -1,0 +1,47 @@
+.main_image {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 80vh;
+    position: relative;
+}
+
+.main_image2 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    min-height: 80vh;
+    position: relative;
+}
+
+.img1 {
+    background-image: url(../img/env_landsc4.jpg);
+}
+
+.img2 {
+    background-image: url(../img/env_landsc5.jpg);
+}
+
+.img3 {
+    background-image: url(../img/env_landsc6.jpg);   
+}
+
+.img4 {
+    background-image: url(../img/playgr_landsc1.jpg);
+}
+
+.img5 {
+    background-image: url(../img/robot_header2.jpg);
+}
+
+.img6 {
+    background-image: url(../img/vr_landsc_1.jpg);
+}
+
+.img7 {
+    background-image: url(../img/cafe_1.jpg);
+}
+
+.img8 {
+    background-image: url(../img/musum_header.jpg);
+}
