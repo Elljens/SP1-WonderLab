@@ -1,5 +1,5 @@
 body {
-    font-family: "Lato", sans-serif;
+    font-family: "Lato", "Noto sans", sans-serif;
 }
 
 .top-header {
@@ -137,15 +137,15 @@ h2 {
     background-color:#D7DFF8;
     border-radius: 15px;
     padding: 20px;
-    width: 350px;
-    height: 700px;
+    width: 300px;
+    height: 630px;
     display: flex;
     flex-direction: column;
     margin: auto;
 }
 
 .detail-image {
-    width: 350px;
+    width: 300px;
     border-radius: 10px;
     display: flex;
     margin: auto;
@@ -192,7 +192,7 @@ h2 {
 
     .details {
         width: 700px;
-        height: 440px;
+        height: 380px;
         display: flex;
         flex-direction: row;
         margin: auto;
