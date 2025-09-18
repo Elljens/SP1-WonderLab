@@ -1,5 +1,5 @@
 body {
-    font-family: "Lato", "Noto sans", sans-serif;
+    font-family: "Lato", sans-serif;
 }
 
 .top-header {
@@ -29,7 +29,7 @@ nav a {
     display:inline-block;
     color: white;
     text-decoration: none;
-    padding: 15px 0px 15px 20px;
+    padding: 10px;
 }
 
 .active {
@@ -72,7 +72,6 @@ h2 {
     max-width: 900px;
     margin: auto;
     display: flexbox;
-    flex: 1;
     padding-bottom: 30px;
 }
 
@@ -84,7 +83,8 @@ h2 {
     row-gap: 50px;
 }
 
-.exhibitions-cta {
+.exhibitions-cta,
+.exhibitions-links {
     background-color: #3561DE;
     padding: 10px;
     display: flex;
@@ -95,24 +95,11 @@ h2 {
 }
 
 .exhibitions-links {
-    background-color: #3561DE;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    width: 350px;
-    border-radius: 15px; 
+    width: 290px;
 }
 
 .welcome-img {
     width: 100%;
-    display: flex;
-    margin: auto;
-    border-radius: 15px;
-}
-
-.exhibitions-img {
-    width: 350px;
     display: flex;
     margin: auto;
     border-radius: 15px;
@@ -137,7 +124,7 @@ h2 {
     background-color:#D7DFF8;
     border-radius: 15px;
     padding: 20px;
-    width: 300px;
+    width: 290px;
     height: 630px;
     display: flex;
     flex-direction: column;
@@ -145,7 +132,7 @@ h2 {
 }
 
 .detail-image {
-    width: 300px;
+    width: 290px;
     border-radius: 10px;
     display: flex;
     margin: auto;
@@ -154,7 +141,6 @@ h2 {
 .detail-text {
     padding: 0px 20px;  
 }
-
 
 .footer {
     background-color: black;
@@ -192,7 +178,7 @@ h2 {
 
     .details {
         width: 700px;
-        height: 380px;
+        height: 360px;
         display: flex;
         flex-direction: row;
         margin: auto;
