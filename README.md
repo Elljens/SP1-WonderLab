@@ -5,3 +5,5 @@
 Semester Project 1 was an assignment in both design and development. The page is designed in Figma and built with HTML and CSS only.
 
 The project is build with a responsive design
+
+-Elljens
